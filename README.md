@@ -1,6 +1,7 @@
 # Adobe ADEPT protocol documentation
 
-## Sign-in
+## High-Level Overview
+### Sign In
 ```mermaid
 %%{init: { 'sequence': { 'actorMargin': 200 } }}%%
 sequenceDiagram
@@ -15,7 +16,7 @@ sequenceDiagram
   E ->>- C: License Key + Cert, User ID, PKCS12
 ```
 
-## Activation
+### Activation
 ```mermaid
 %%{init: { 'sequence': { 'actorMargin': 300 } }}%%
 sequenceDiagram
