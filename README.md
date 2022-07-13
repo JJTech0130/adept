@@ -1,6 +1,11 @@
 # Adobe ADEPT protocol documentation
 
 ## High-Level Overview
+The ADEPT protocol consists of three main parts:
+1. Sign in
+2. Activation
+3. Fulfillment
+
 ### Sign In
 ```mermaid
 %%{init: { 'sequence': { 'actorMargin': 200 } }}%%
